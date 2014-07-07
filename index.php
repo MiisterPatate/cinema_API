@@ -1,12 +1,18 @@
 <?php
 
-    require 'Slim/Slim.php';
-    \Slim\Slim::registerAutoloader();
+require("libs/toro.php");
 
-    $app = new \Slim\Slim();
+    class users {
+        function get() {
+            include("bdd.php");
+            echo '<h2>Tout les utilisateurs :</h2>';
+            $name = $dbc->query('SELECT * FROM user');
+            while($row = $name->fetch_assoc()){
+                echo "<p>".$row['id']." - ".$row['username']."</p>";
+            }
+        }
+    }
 
-    $app->get('/users/:username', function ($username) {
-        echo "Hello, ".$username;
-    });
-
-    $app->run();
+    Toro::serve(array(
+        "/users/" => "users"
+    ));
