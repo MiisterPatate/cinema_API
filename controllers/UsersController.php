@@ -17,3 +17,14 @@
             $add = $dbc->query("INSERT INTO user VALUES ('', '".$name."')");
         }
     }
+
+    class profilUsers{
+        function get($id){
+            include("bdd.php");
+            echo "<h2>Utilisateur n°".$id."</h2>";
+            $profil = $dbc->query("SELECT * FROM user WHERE id = ".$id." LIMIT 1");
+            while($row = $profil->fetch_assoc()){
+                echo "<p>".$row['id']." - ".$row['username']."</p>";
+            }
+        }
+    }
