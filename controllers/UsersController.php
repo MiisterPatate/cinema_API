@@ -1,8 +1,6 @@
 <?php
 
-require("libs/toro.php");
-
-    class users {
+    class listUsers {
         function get() {
             include("bdd.php");
             echo '<h2>Tout les utilisateurs :</h2>';
@@ -13,6 +11,9 @@ require("libs/toro.php");
         }
     }
 
-    Toro::serve(array(
-        "/users/" => "users"
-    ));
+    class addUsers{
+        function get($name){
+            include("bdd.php");
+            $add = $dbc->query("INSERT INTO user VALUES ('', '".$name."')");
+        }
+    }
