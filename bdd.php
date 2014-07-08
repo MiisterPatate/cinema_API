@@ -10,3 +10,5 @@
     DEFINE('DB_NAME', 'api_cinema');
 
     mysqli_select_db($dbc, DB_NAME) or die('could not select db');
+
+?>

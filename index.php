@@ -2,6 +2,7 @@
 
 require("libs/toro.php");
 require("controllers/UsersController.php");
+require("controllers/MoviesController.php");
 
     ToroHook::add("404", function() {
         API::status(404);
@@ -9,7 +10,8 @@ require("controllers/UsersController.php");
     });
 
     Toro::serve(array(
-        "/users/" => "listUsers",
-        "/users/profil/:number" => "profilUsers",
-        "/users/add/:string" => "addUsers"
+        "/v1/users/" => "users",
+        "/v1/users/:number" => "user_id",
+        "/v1/movies/" => "movies",
+        "/v1/movies/:number" => "movie_id",
     ));
