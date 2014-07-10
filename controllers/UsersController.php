@@ -6,11 +6,20 @@
             include("bdd.php");
             $name = $dbc->query("SELECT * FROM user");
             $result = array();
-            while($row = $name->fetch_assoc()){
-                array_push($result, $row);
+            $afficher = array();
+            while($row = $name->fetch_object()){
+                $result = array(
+                    'id' => (int)$row->id,
+                    'username' => $row->username,
+                    'likes' => (int)$row->likes,
+                    'dislikes' => (int)$row->dislikes,
+                    'watched' => (int)$row->watched,
+                    'watchlist' => (int)$row->watchlist
+                );
+                array_push($afficher, $result);
             }
             $newobj = new stdClass();
-            $newobj-> data = $result;
+            $newobj-> data = $afficher;
             //echo json_encode($newobj);
             header('Content-type: application/json');
             exit (json_encode($newobj));
@@ -65,7 +74,6 @@
                 parse_str(file_get_contents('php://input'), $_DELETE);
             }
             $dbc->query("DELETE FROM user WHERE user id = ".$id."");
-            var_dump($_DELETE);
         }
 
     }

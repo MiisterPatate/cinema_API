@@ -11,7 +11,9 @@
             }
             $newobj = new stdClass();
             $newobj-> data = $result;
-            echo json_encode($newobj);
+            //echo json_encode($newobj);
+            header('Content-type: application/json');
+            exit (json_encode($newobj));
         }
 
         function post(){
@@ -54,28 +56,7 @@
 
         function delete($id){
             include("bdd.php");
-            $_DELETE  = array();
-            if($_SERVER['REQUEST_METHOD'] == 'DELETE') {
-                parse_str(file_get_contents('php://input'), $_DELETE);
-            }
             $dbc->query("DELETE FROM movie WHERE id = ".$id."");
-            var_dump($_DELETE);
-        }
-
-    }
-
-    class genres{
-
-        function get(){
-            include("bdd.php");
-            $name = $dbc->query("SELECT id, genre FROM movie");
-            $result = array();
-            while($row = $name->fetch_assoc()){
-                array_push($result, $row);
-            }
-            $newobj = new stdClass();
-            $newobj-> data = $result;
-            echo json_encode($newobj);
         }
 
     }

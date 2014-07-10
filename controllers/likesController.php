@@ -4,10 +4,16 @@
 
         function get($id){
             include("bdd.php");
-            $profil = $dbc->query("SELECT likes FROM user WHERE id = ".$id."");
+            $profil = $dbc->query("SELECT movies_id FROM relation WHERE id = ".$id."");
             $result = array();
-            while($row = $profil->fetch_assoc()){
-                array_push($result, $row);
+            $afficher = array();
+            while($row = $profil->fetch_object()){
+                $result = array(
+                    'id' => (int)$row->id,
+                    'title' => $row->title,
+                    'cover' => (int)$row->cover,
+                    'genre' => (int)$row->genre
+                );
             }
             $newobj = new stdClass();
             $newobj-> data = $result;
