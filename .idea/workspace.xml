@@ -23,20 +23,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="56" selection-start="637" selection-end="637" vertical-scroll-proportion="-12.666667" vertical-offset="0" max-vertical-offset="468">
+            <state line="14" column="26" selection-start="401" selection-end="401" vertical-scroll-proportion="0.32684824" vertical-offset="0" max-vertical-offset="771">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="likesController.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="likesController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/likesController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="9" selection-start="864" selection-end="864" vertical-scroll-proportion="0.7003891" vertical-offset="0" max-vertical-offset="771">
-              <folding />
+            <state line="13" column="38" selection-start="416" selection-end="416" vertical-scroll-proportion="-8.666667" vertical-offset="0" max-vertical-offset="576">
+              <folding>
+                <marker date="1404992839000" expanded="true" signature="557:638" placeholder="INSERT INTO ..." />
+                <marker date="1404992839000" expanded="true" signature="667:757" placeholder="UPDATE user ..." />
+                <marker date="1404992839000" expanded="true" signature="667:744" placeholder="UPDATE user ..." />
+                <marker date="1404992839000" expanded="true" signature="690:743" placeholder="SELECT count..relation..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -44,7 +49,7 @@
       <file leaf-file-name="MoviesController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/MoviesController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="0" selection-start="2015" selection-end="2015" vertical-scroll-proportion="-11.407408" vertical-offset="826" max-vertical-offset="1584">
+            <state line="21" column="49" selection-start="626" selection-end="626" vertical-scroll-proportion="-14.0" vertical-offset="0" max-vertical-offset="1584">
               <folding>
                 <marker date="1404896338000" expanded="true" signature="117:136" placeholder="SELECT * FRO..movie..." />
                 <marker date="1404896338000" expanded="true" signature="2131:2158" placeholder="SELECT id, g..movie..." />
@@ -56,9 +61,9 @@
       <file leaf-file-name="UsersController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/UsersController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="12" selection-start="647" selection-end="1003" vertical-scroll-proportion="-4.6666665" vertical-offset="360" max-vertical-offset="1152">
+            <state line="31" column="12" selection-start="860" selection-end="860" vertical-scroll-proportion="-7.2222223" vertical-offset="363" max-vertical-offset="1368">
               <folding>
-                <marker date="1404834982000" expanded="true" signature="116:134" placeholder="SELECT * FRO..user..." />
+                <marker date="1404994803000" expanded="true" signature="116:134" placeholder="SELECT * FRO..user..." />
               </folding>
             </state>
           </provider>
@@ -85,11 +90,11 @@
       <list>
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/bdd.php" />
-        <option value="$PROJECT_DIR$/controllers/UsersController.php" />
         <option value="$PROJECT_DIR$/controllers/MoviesController.php" />
-        <option value="$PROJECT_DIR$/controllers/likesController.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/controllers/likesController.php" />
+        <option value="$PROJECT_DIR$/controllers/UsersController.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -291,7 +296,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="29" selection-start="569" selection-end="569" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="1152">
           <folding>
-            <marker date="1404834982000" expanded="true" signature="116:134" placeholder="SELECT * FRO..user..." />
+            <marker date="1404994803000" expanded="true" signature="116:134" placeholder="SELECT * FRO..user..." />
           </folding>
         </state>
       </provider>
@@ -324,7 +329,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="29" selection-start="569" selection-end="569" vertical-scroll-proportion="0.0" vertical-offset="381" max-vertical-offset="1152">
           <folding>
-            <marker date="1404834982000" expanded="true" signature="116:134" placeholder="SELECT * FRO..user..." />
+            <marker date="1404994803000" expanded="true" signature="116:134" placeholder="SELECT * FRO..user..." />
           </folding>
         </state>
       </provider>
@@ -357,7 +362,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="31" selection-start="1073" selection-end="1239" vertical-scroll-proportion="0.0" vertical-offset="702" max-vertical-offset="1152">
           <folding>
-            <marker date="1404834982000" expanded="true" signature="116:134" placeholder="SELECT * FRO..user..." />
+            <marker date="1404994803000" expanded="true" signature="116:134" placeholder="SELECT * FRO..user..." />
           </folding>
         </state>
       </provider>
@@ -388,32 +393,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/MoviesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="0" selection-start="2015" selection-end="2015" vertical-scroll-proportion="-11.407408" vertical-offset="826" max-vertical-offset="1584">
-          <folding>
-            <marker date="1404896338000" expanded="true" signature="117:136" placeholder="SELECT * FRO..movie..." />
-            <marker date="1404896338000" expanded="true" signature="2131:2158" placeholder="SELECT id, g..movie..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/UsersController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="12" selection-start="647" selection-end="1003" vertical-scroll-proportion="-4.6666665" vertical-offset="360" max-vertical-offset="1152">
-          <folding>
-            <marker date="1404834982000" expanded="true" signature="116:134" placeholder="SELECT * FRO..user..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="56" selection-start="637" selection-end="637" vertical-scroll-proportion="-12.666667" vertical-offset="0" max-vertical-offset="468">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="0" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0931436" vertical-offset="0" max-vertical-offset="773">
@@ -421,9 +400,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/MoviesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="49" selection-start="626" selection-end="626" vertical-scroll-proportion="-14.0" vertical-offset="0" max-vertical-offset="1584">
+          <folding>
+            <marker date="1404896338000" expanded="true" signature="117:136" placeholder="SELECT * FRO..movie..." />
+            <marker date="1404896338000" expanded="true" signature="2131:2158" placeholder="SELECT id, g..movie..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/likesController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="9" selection-start="864" selection-end="864" vertical-scroll-proportion="0.7003891" vertical-offset="0" max-vertical-offset="771">
+        <state line="13" column="38" selection-start="416" selection-end="416" vertical-scroll-proportion="-8.666667" vertical-offset="0" max-vertical-offset="576">
+          <folding>
+            <marker date="1404992839000" expanded="true" signature="557:638" placeholder="INSERT INTO ..." />
+            <marker date="1404992839000" expanded="true" signature="667:757" placeholder="UPDATE user ..." />
+            <marker date="1404992839000" expanded="true" signature="667:744" placeholder="UPDATE user ..." />
+            <marker date="1404992839000" expanded="true" signature="690:743" placeholder="SELECT count..relation..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/UsersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="12" selection-start="860" selection-end="860" vertical-scroll-proportion="-7.2222223" vertical-offset="363" max-vertical-offset="1368">
+          <folding>
+            <marker date="1404994803000" expanded="true" signature="116:134" placeholder="SELECT * FRO..user..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="26" selection-start="401" selection-end="401" vertical-scroll-proportion="0.32684824" vertical-offset="0" max-vertical-offset="771">
           <folding />
         </state>
       </provider>

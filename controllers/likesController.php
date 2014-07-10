@@ -18,16 +18,10 @@
 
     class addLikes{
 
-        function post(){
+        function post($user_id, $movie_id){
             include("bdd.php");
-            $profil = $dbc->query("INSERT INTO likes FROM relation WHERE id = ".$id."");
-            $result = array();
-            while($row = $profil->fetch_assoc()){
-                array_push($result, $row);
-            }
-            $newobj = new stdClass();
-            $newobj-> data = $result;
-            echo json_encode($newobj);
+            $dbc->query("INSERT INTO relation (user_id, movie_id, likes) VALUES ('$user_id','$movie_id',1)");
+            $dbc->query("UPDATE user SET likes=(SELECT count(*) FROM relation WHERE user_id = user.id)");
         }
 
     }

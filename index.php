@@ -11,11 +11,11 @@ require("controllers/likesController.php");
     });
 
     Toro::serve(array(
-        "/v1/users/" => "users",
-        "/v1/users/:number/" => "user_id",
-        "/v1/movies/" => "movies",
-        "/v1/movies/:number/" => "movie_id",
-        "/v1/genres/" => "genres",
-        "/v1/users/:number/likes/" => "likes",
-        "/v1/users/:number/likes/:number/" => "addLikes"
+        "/v1/users" => "users",
+        "/v1/users/:number" => "user_id",
+        "/v1/movies" => "movies",
+        "/v1/movies/:number" => "movie_id",
+        "/v1/genres" => "genres",
+        "/v1/users/:number/likes" => "likes",
+        "/v1/users/:number/likes/:number" => "addLikes"
     ));

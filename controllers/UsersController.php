@@ -11,7 +11,9 @@
             }
             $newobj = new stdClass();
             $newobj-> data = $result;
-            echo json_encode($newobj);
+            //echo json_encode($newobj);
+            header('Content-type: application/json');
+            exit (json_encode($newobj));
         }
 
         function post(){
@@ -28,12 +30,22 @@
             include("bdd.php");
             $profil = $dbc->query("SELECT * FROM user WHERE id = ".$id." LIMIT 1");
             $result = array();
-            while($row = $profil->fetch_assoc()){
-                array_push($result, $row);
+            while($row = $profil->fetch_object()){
+                $result = array(
+                    'data' => array(
+                        'id' => (int)$row->id,
+                        'username' => $row->username,
+                        'likes' => (int)$row->likes,
+                        'dislikes' => (int)$row->dislikes,
+                        'watched' => (int)$row->watched,
+                        'watchlist' => (int)$row->watchlist
+                    )
+                );
             }
             $newobj = new stdClass();
             $newobj-> data = $result;
-            echo json_encode($newobj);
+            header('Content-type: application/json');
+            exit (json_encode($result));
         }
 
         function put($id){
