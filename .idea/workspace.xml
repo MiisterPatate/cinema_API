@@ -26,18 +26,28 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="27" selection-start="430" selection-end="436" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="396">
+            <state line="19" column="56" selection-start="637" selection-end="637" vertical-scroll-proportion="-12.666667" vertical-offset="0" max-vertical-offset="468">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MoviesController.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="likesController.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/controllers/likesController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="9" selection-start="864" selection-end="864" vertical-scroll-proportion="0.7003891" vertical-offset="0" max-vertical-offset="771">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MoviesController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/MoviesController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="11" selection-start="1256" selection-end="1380" vertical-scroll-proportion="0.35224274" vertical-offset="525" max-vertical-offset="1296">
+            <state line="63" column="0" selection-start="2015" selection-end="2015" vertical-scroll-proportion="-11.407408" vertical-offset="826" max-vertical-offset="1584">
               <folding>
-                <marker date="1404835106000" expanded="true" signature="117:136" placeholder="SELECT * FRO..movie..." />
+                <marker date="1404896338000" expanded="true" signature="117:136" placeholder="SELECT * FRO..movie..." />
+                <marker date="1404896338000" expanded="true" signature="2131:2158" placeholder="SELECT id, g..movie..." />
               </folding>
             </state>
           </provider>
@@ -46,7 +56,7 @@
       <file leaf-file-name="UsersController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/UsersController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="31" selection-start="1073" selection-end="1239" vertical-scroll-proportion="0.0" vertical-offset="702" max-vertical-offset="1152">
+            <state line="27" column="12" selection-start="647" selection-end="1003" vertical-scroll-proportion="-4.6666665" vertical-offset="360" max-vertical-offset="1152">
               <folding>
                 <marker date="1404834982000" expanded="true" signature="116:134" placeholder="SELECT * FRO..user..." />
               </folding>
@@ -75,9 +85,11 @@
       <list>
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/bdd.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/controllers/UsersController.php" />
         <option value="$PROJECT_DIR$/controllers/MoviesController.php" />
+        <option value="$PROJECT_DIR$/controllers/likesController.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -117,6 +129,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -165,7 +178,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -224,7 +236,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16319445" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39903265" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -260,6 +272,72 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="29" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/MoviesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="36" selection-start="1417" selection-end="1417" vertical-scroll-proportion="0.0" vertical-offset="846" max-vertical-offset="1584">
+          <folding>
+            <marker date="1404896338000" expanded="true" signature="117:136" placeholder="SELECT * FRO..movie..." />
+            <marker date="1404896338000" expanded="true" signature="2131:2158" placeholder="SELECT id, g..movie..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/UsersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="29" selection-start="569" selection-end="569" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="1152">
+          <folding>
+            <marker date="1404834982000" expanded="true" signature="116:134" placeholder="SELECT * FRO..user..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bdd.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="25" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="342">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="29" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/MoviesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="36" selection-start="1417" selection-end="1417" vertical-scroll-proportion="0.0" vertical-offset="684" max-vertical-offset="1584">
+          <folding>
+            <marker date="1404896338000" expanded="true" signature="117:136" placeholder="SELECT * FRO..movie..." />
+            <marker date="1404896338000" expanded="true" signature="2131:2158" placeholder="SELECT id, g..movie..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/UsersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="29" selection-start="569" selection-end="569" vertical-scroll-proportion="0.0" vertical-offset="381" max-vertical-offset="1152">
+          <folding>
+            <marker date="1404834982000" expanded="true" signature="116:134" placeholder="SELECT * FRO..user..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bdd.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="25" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="342">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="27" selection-start="430" selection-end="436" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="396">
           <folding />
         </state>
@@ -269,7 +347,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="36" selection-start="1495" selection-end="1495" vertical-scroll-proportion="0.0" vertical-offset="882" max-vertical-offset="1296">
           <folding>
-            <marker date="1404835106000" expanded="true" signature="117:136" placeholder="SELECT * FRO..movie..." />
+            <marker date="1404896338000" expanded="true" signature="117:136" placeholder="SELECT * FRO..movie..." />
+            <marker date="1404896338000" expanded="true" signature="2131:2158" placeholder="SELECT id, g..movie..." />
           </folding>
         </state>
       </provider>
@@ -297,7 +376,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/libs/toro.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2340" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2340">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bdd.php">
@@ -307,28 +388,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/controllers/MoviesController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="27" selection-start="430" selection-end="436" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="396">
-          <folding />
+        <state line="63" column="0" selection-start="2015" selection-end="2015" vertical-scroll-proportion="-11.407408" vertical-offset="826" max-vertical-offset="1584">
+          <folding>
+            <marker date="1404896338000" expanded="true" signature="117:136" placeholder="SELECT * FRO..movie..." />
+            <marker date="1404896338000" expanded="true" signature="2131:2158" placeholder="SELECT id, g..movie..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/UsersController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="31" selection-start="1073" selection-end="1239" vertical-scroll-proportion="0.0" vertical-offset="702" max-vertical-offset="1152">
+        <state line="27" column="12" selection-start="647" selection-end="1003" vertical-scroll-proportion="-4.6666665" vertical-offset="360" max-vertical-offset="1152">
           <folding>
             <marker date="1404834982000" expanded="true" signature="116:134" placeholder="SELECT * FRO..user..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/MoviesController.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="11" selection-start="1256" selection-end="1380" vertical-scroll-proportion="0.35224274" vertical-offset="525" max-vertical-offset="1296">
-          <folding>
-            <marker date="1404835106000" expanded="true" signature="117:136" placeholder="SELECT * FRO..movie..." />
-          </folding>
+        <state line="19" column="56" selection-start="637" selection-end="637" vertical-scroll-proportion="-12.666667" vertical-offset="0" max-vertical-offset="468">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0931436" vertical-offset="0" max-vertical-offset="773">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/likesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="9" selection-start="864" selection-end="864" vertical-scroll-proportion="0.7003891" vertical-offset="0" max-vertical-offset="771">
+          <folding />
         </state>
       </provider>
     </entry>

@@ -64,4 +64,20 @@
 
     }
 
+    class genres{
+
+        function get(){
+            include("bdd.php");
+            $name = $dbc->query("SELECT id, genre FROM movie");
+            $result = array();
+            while($row = $name->fetch_assoc()){
+                array_push($result, $row);
+            }
+            $newobj = new stdClass();
+            $newobj-> data = $result;
+            echo json_encode($newobj);
+        }
+
+    }
+
 ?>
