@@ -26,7 +26,7 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="18" selection-start="395" selection-end="395" vertical-scroll-proportion="-9.333333" vertical-offset="0" max-vertical-offset="486">
+            <state line="14" column="18" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="486">
               <folding />
             </state>
           </provider>
@@ -35,7 +35,7 @@
       <file leaf-file-name="likesController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/likesController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="74" selection-start="158" selection-end="158" vertical-scroll-proportion="-4.0" vertical-offset="0" max-vertical-offset="684">
+            <state line="6" column="74" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="684">
               <folding>
                 <marker date="1405000809000" expanded="true" signature="792:873" placeholder="INSERT INTO ..." />
                 <marker date="1405000809000" expanded="true" signature="902:992" placeholder="UPDATE user ..." />
@@ -49,7 +49,7 @@
       <file leaf-file-name="MoviesController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/MoviesController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="41" selection-start="635" selection-end="635" vertical-scroll-proportion="-14.0" vertical-offset="0" max-vertical-offset="1242">
+            <state line="21" column="41" selection-start="635" selection-end="635" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="1242">
               <folding>
                 <marker date="1405001255000" expanded="true" signature="117:136" placeholder="SELECT * FRO..movie..." />
               </folding>
@@ -60,7 +60,7 @@
       <file leaf-file-name="genre.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/genre.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="47" selection-start="433" selection-end="433" vertical-scroll-proportion="-9.333333" vertical-offset="0" max-vertical-offset="522">
+            <state line="14" column="47" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="522">
               <folding>
                 <marker date="1405001642000" expanded="true" signature="114:133" placeholder="SELECT * FRO..genre..." />
               </folding>
@@ -145,7 +145,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -194,6 +193,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -245,14 +245,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16319445" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16319445" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39903265" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -260,11 +260,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -286,6 +286,59 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="18" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/likesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="74" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="684">
+          <folding>
+            <marker date="1405000809000" expanded="true" signature="792:873" placeholder="INSERT INTO ..." />
+            <marker date="1405000809000" expanded="true" signature="902:992" placeholder="UPDATE user ..." />
+            <marker date="1405000809000" expanded="true" signature="902:979" placeholder="UPDATE user ..." />
+            <marker date="1405000809000" expanded="true" signature="925:978" placeholder="SELECT count..relation..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/MoviesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="41" selection-start="635" selection-end="635" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="1242">
+          <folding>
+            <marker date="1405001255000" expanded="true" signature="117:136" placeholder="SELECT * FRO..movie..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/genre.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="47" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="522">
+          <folding>
+            <marker date="1405001642000" expanded="true" signature="114:133" placeholder="SELECT * FRO..genre..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/UsersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="36" selection-start="2602" selection-end="2602" vertical-scroll-proportion="0.0" vertical-offset="1350" max-vertical-offset="1512">
+          <folding>
+            <marker date="1405001944000" expanded="true" signature="116:134" placeholder="SELECT * FRO..user..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bdd.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="25" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="342">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="29" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
@@ -389,9 +442,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/libs/toro.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2340">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2340" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bdd.php">
@@ -403,14 +454,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0931436" vertical-offset="0" max-vertical-offset="773">
-          <folding />
-        </state>
+        <state line="4" column="0" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0931436" vertical-offset="0" max-vertical-offset="773" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/MoviesController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="41" selection-start="635" selection-end="635" vertical-scroll-proportion="-14.0" vertical-offset="0" max-vertical-offset="1242">
+        <state line="21" column="41" selection-start="635" selection-end="635" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="1242">
           <folding>
             <marker date="1405001255000" expanded="true" signature="117:136" placeholder="SELECT * FRO..movie..." />
           </folding>
@@ -419,7 +468,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/genre.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="47" selection-start="433" selection-end="433" vertical-scroll-proportion="-9.333333" vertical-offset="0" max-vertical-offset="522">
+        <state line="14" column="47" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="522">
           <folding>
             <marker date="1405001642000" expanded="true" signature="114:133" placeholder="SELECT * FRO..genre..." />
           </folding>
@@ -428,14 +477,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="18" selection-start="395" selection-end="395" vertical-scroll-proportion="-9.333333" vertical-offset="0" max-vertical-offset="486">
+        <state line="14" column="18" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="486">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/likesController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="74" selection-start="158" selection-end="158" vertical-scroll-proportion="-4.0" vertical-offset="0" max-vertical-offset="684">
+        <state line="6" column="74" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="684">
           <folding>
             <marker date="1405000809000" expanded="true" signature="792:873" placeholder="INSERT INTO ..." />
             <marker date="1405000809000" expanded="true" signature="902:992" placeholder="UPDATE user ..." />
